@@ -10,7 +10,7 @@ public class Main {
 
         float bmi = weight / (height * height);
 
-        System.out.println("Your body mass index is " + bmi);
+        System.out.println("Your Body Mass Index is " + bmi);
 
         if(bmi < 18.5) {
             System.out.println("Underweight");

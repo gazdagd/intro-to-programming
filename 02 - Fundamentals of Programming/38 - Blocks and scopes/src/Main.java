@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int cart[] = {10, 20};
+        int[] cart = {10, 20};
         int total = getTotal(cart);
         System.out.println(total);
     }
@@ -12,7 +12,7 @@ public class Main {
             int var = 0;
             total += cart[i];
         }
-        int var  = 1;
+        int var  = 121;
         return total;
     }
 

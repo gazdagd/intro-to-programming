@@ -2,10 +2,7 @@ public class Main {
     public static void main(String[] args) {
         // AND
         int score = 8;
-
-        boolean isGreaterThanSeven = score > 7;
-        boolean isLesserThanNine = score < 9;
-        boolean isBetween = isGreaterThanSeven && isLesserThanNine;
+        boolean isBetween = score > 7 && score < 9;
 
         System.out.println(isBetween); // true
 

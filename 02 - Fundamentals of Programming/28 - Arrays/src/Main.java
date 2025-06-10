@@ -15,10 +15,11 @@ public class Main {
         int[] grades = {45, 89, 78, 17, 67, 95, 53};
 
         grades[0] = 33;
-        //grades[7] = 23;
+        //grades[7] = 12;
         grades = new int[]{45, 89, 78, 17, 67, 95, 53, 23};
 
         System.out.println(grades[0]);
+		System.out.println(grades.length);
         System.out.println(grades[grades.length - 1]);
 
         int[] empty = new int[10];
