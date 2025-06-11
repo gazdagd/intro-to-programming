@@ -17,14 +17,14 @@ public class Main {
         // Endless loop that will be break with returning with a valid number
         while (true) {
             System.out.print("Enter a positive number: ");
-            String sidesInput = System.console().readLine();
+            String input = System.console().readLine();
             try {
-                int sides = Integer.parseInt(sidesInput);
-                if(sides <= 0) {
+                int num = Integer.parseInt(input);
+                if(num <= 0) {
                     System.out.println("Please enter a number which is greater than 0!");
                     continue; // Continue the loop from the beginning
                 }
-                return sides; // Break the loop
+                return num; // Break the loop
             } catch (NumberFormatException e) {
                 System.out.println("Please enter a valid number!");
             }
